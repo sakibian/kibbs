@@ -1,7 +1,14 @@
 # Kibbs
 
+Kibbs is booking platform for personal trainer.
+
 ### Screens
 
-### Commands
+![Landing Page](./screens/welcome.png)
 
--   php artisan db:seed --class=UserSeeder
+### Install & Commands
+
+-   Clone the project
+-   Composer install/update
+-   php artisan migrate
+-   php artisan db:seed --class=TimeSeeder
