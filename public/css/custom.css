@@ -1,0 +1,147 @@
+html, body {
+    font-family: 'Work Sans', sans-serif;
+    color: #444;
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+}
+
+main {
+    padding-bottom: 50px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #28a745;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3rem;
+    text-decoration: none;
+}
+
+.sidenav .sidebar-ul li {
+    list-style: none;
+}
+.sidebar-item .sidebar-link {
+    padding: .5rem 1rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    color: #e5e5e5;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000000;
+}
+
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3rem;
+    margin-left: 3rem;
+    color: #212529;
+}
+.sidenav .closebtn:hover {
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav-dropdown {
+    color: #ffff;
+    background: #28a745;
+    float: right;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+.navbar-toggler-icon::before {
+    font-family: FontAwesome;
+    content: "\f038";
+}
+
+.navbar-light .navbar-toggler {
+    color: #ffff;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #28a745;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+/* Datepicker Override CSS */
+.datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active:active {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a749;
+}
+
+.datepicker table tr td.active.active.focus, .datepicker table tr td.active.active:focus, .datepicker table tr td.active.active:hover, .datepicker table tr td.active.highlighted.active.focus, .datepicker table tr td.active.highlighted.active:focus, .datepicker table tr td.active.highlighted.active:hover, .datepicker table tr td.active.highlighted:active.focus, .datepicker table tr td.active.highlighted:active:focus, .datepicker table tr td.active.highlighted:active:hover, .datepicker table tr td.active:active.focus, .datepicker table tr td.active:active:focus, .datepicker table tr td.active:active:hover {
+    color: #fff;
+    background-color: rgb(93, 196, 106);
+    border-color: #28a749;
+}
+
+
+.scrollToTopBtn {
+    position: relative;
+    margin-bottom: 30px;
+    transform: translateY(50px);
+    transition: all .5s ease
+}
+
+.showBtn {
+    opacity: 0.9;
+    transform: translateY(0);
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .scrollToTopBtn {
+        bottom: 0%;
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) {
+    .py-5,
+    .pb-5 {
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .scrollToTopBtn {
+        right: 0;
+    }
+
+
+ }
+

@@ -1,0 +1,16 @@
+.text-muted {
+    color: #6c757d!important;
+}
+
+.ml-1, .mx-1 {
+    margin-left: .25rem!important;
+}
+
+.mt-1, .my-1 {
+    margin-top: .25rem!important;
+}
+
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
